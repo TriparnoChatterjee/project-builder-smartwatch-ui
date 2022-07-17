@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+.smart-watch{
+    display: grid;
+    grid-template-columns: 50vw 50vw;
+    grid-template-rows: 100vh;
+}
+.smart-watch_tagline{
+    display: flex;
+    background: rgb(19, 19, 33);
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2rem;
+    font-family: 'Open Sans', sans-serif;
+}
+/* .watch-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.smart-watch_watch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  
+}
+i{
+    color: white;
+}
+.watch{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 35px;
+    align-items: center;
+    width: 30%;
+    height: 15rem;
+    border-top: 20px solid rgb(73, 73, 73);
+    border-bottom: 20px solid rgb(73, 73, 73);
+    color: white;
+    background: black;
+    padding: 10px;
+}
+
+.watch-time_body h3, h4{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+.watch-time_body h3{
+font-size: 2.4rem;
+font-weight: bolder;
+}
+.watch-time_body h4{
+    font-size: 1.2rem;
+
+}
+.watch-time_foot{
+    display: flex;
+    justify-content: space-evenly;
+    
+    width: 100%;
+}
